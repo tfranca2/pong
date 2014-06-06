@@ -9,7 +9,7 @@ namespace pong
         /// </summary>
         static void Main(string[] args)
         {
-            using (principal game = new principal())
+            using (Game game = new Game())
             {
                 game.Run();
             }

@@ -12,13 +12,13 @@ using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
 namespace pong
 {
-    class bola : GameComponent
+    class Bola : GameComponent
     {
         public Texture2D textura;
         public Vector2 posicao;
         public Vector2 velocidade;
 
-        public bola(Game principal, Texture2D textura, Vector2 posicao)
+        public Bola(Game principal, Texture2D textura, Vector2 posicao)
             : base(principal)
         {
             this.posicao = posicao;
@@ -35,6 +35,8 @@ namespace pong
             if (posicao.Y + textura.Height + velocidade.Y > this.Game.Window.ClientBounds.Height)
             {
                 velocidade.Y = -velocidade.Y;//de baixo
+
+                velocidade = new Vector2(0,0);
             }
             if (posicao.X + velocidade.X < 0)
             {

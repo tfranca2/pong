@@ -13,7 +13,8 @@
     <XnaPlatform>Windows</XnaPlatform>
     <XnaCrossPlatformGroupID>b4877ec7-c379-4057-b096-11b60c0fdaa7</XnaCrossPlatformGroupID>
     <ApplicationIcon>Game.ico</ApplicationIcon>
-    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <Thumbnail>
+    </Thumbnail>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -84,16 +85,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bola.cs" />
-    <Compile Include="barra.cs" />
-    <Compile Include="quadrado.cs" />
+    <Compile Include="Bola.cs" />
+    <Compile Include="Barra.cs" />
+    <Compile Include="Quadrado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="principal.cs" />
+    <Compile Include="Game.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
-    <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
     <NestedContentProject Include="Content\Content.contentproj">

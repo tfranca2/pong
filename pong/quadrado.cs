@@ -12,12 +12,12 @@ using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
 namespace pong
 {
-    class quadrado : GameComponent
+    class Quadrado : GameComponent
     {
         public Texture2D textura;
         public Vector2 XY;
 
-        public quadrado(Game principal, Texture2D textura, Vector2 XY) : base(principal)
+        public Quadrado(Game principal, Texture2D textura, Vector2 XY) : base(principal)
         {   
             this.XY = XY;
             this.textura = textura;

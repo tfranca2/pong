@@ -13,31 +13,59 @@ using Microsoft.Xna.Framework.Storage;
 
 namespace pong
 {
-    class barra : GameComponent
+    class Barra : GameComponent
     {
         public Texture2D textura;
         public Vector2 posicao;
+        public int velocidade;
 
-        public barra(Game principal, Texture2D textura, Vector2 posicao)
+        public Barra(Game principal, Texture2D textura, Vector2 posicao)
             : base(principal)
         {
             this.posicao = posicao;
             this.textura = textura;
+            velocidade = 5;
         }
 
         public override void Update(GameTime gameTime)
         {
 
-            KeyboardState teclado = Keyboard.GetState();
+            if (posicao.X + textura.Width > this.Game.Window.ClientBounds.Width)
+            {
+                posicao.X -= velocidade;
+            }
+            if (posicao.Y + textura.Height > this.Game.Window.ClientBounds.Height)
+            {
+                posicao.Y -= velocidade;
+            }
+            if (posicao.X < 0)
+            {
+                posicao.X += velocidade;
+            }
+            if (posicao.Y < 0)
+            {
+                posicao.Y += velocidade;
+            }
 
-            if (teclado.IsKeyDown(Keys.Left))
+            if (Keyboard.GetState().IsKeyDown(Keys.Left))
             {
-                posicao -= 5;
+                posicao.X -= velocidade;
             }
-            if (teclado.IsKeyDown(Keys.Right))
+            if (Keyboard.GetState().IsKeyDown(Keys.Right))
             {
-                posicao += 5;
+                posicao.X += velocidade;
             }
+            /*/
+            if (Keyboard.GetState().IsKeyDown(Keys.Up))
+            {
+                posicao.Y -= velocidade;
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.Down))
+            {
+                posicao.Y += velocidade;
+            }
+            //*/
+
 
             base.Update(gameTime);
         }
