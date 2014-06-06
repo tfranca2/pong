@@ -1,0 +1,9 @@
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Debug\Content\bola.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Debug\Content\quadrado.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Debug\Content\barra.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Debug\pong.exe
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Debug\pong.pdb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Debug\pong.exe
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Debug\pong.pdb
