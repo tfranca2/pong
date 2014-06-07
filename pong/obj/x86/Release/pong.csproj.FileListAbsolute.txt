@@ -1,0 +1,12 @@
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\Content\quadrado.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\Content\bola.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\Content\barra.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\pong.exe
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\pong.pdb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Release\pong.exe
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\obj\x86\Release\pong.pdb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\Content\venceu.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\Content\perdeu.xnb
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\bin\x86\Release\Content\menu.xnb

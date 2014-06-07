@@ -31,13 +31,12 @@ namespace pong
             {
                 velocidade.X = -velocidade.X;//direita
             }
-
+            /*/
             if (posicao.Y + textura.Height + velocidade.Y > this.Game.Window.ClientBounds.Height)
             {
                 velocidade.Y = -velocidade.Y;//de baixo
-
-                velocidade = new Vector2(0,0);
             }
+            //*/
             if (posicao.X + velocidade.X < 0)
             {
                 velocidade.X = -velocidade.X;//esquerda

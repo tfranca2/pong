@@ -15,16 +15,12 @@ namespace pong
     class Quadrado : GameComponent
     {
         public Texture2D textura;
-        public Vector2 XY;
+        public Vector2 posicao;
 
-        public Quadrado(Game principal, Texture2D textura, Vector2 XY) : base(principal)
+        public Quadrado(Game principal, Texture2D textura, Vector2 posicao) : base(principal)
         {   
-            this.XY = XY;
+            this.posicao = posicao;
             this.textura = textura;
-        }
-        
-        public Vector2 getXY(){
-            return XY;
         }
 
         public override void Update(GameTime gameTime)
@@ -34,7 +30,7 @@ namespace pong
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(textura, XY, Color.White);
+            spriteBatch.Draw(textura, posicao, Color.White);
         }
     }
 }

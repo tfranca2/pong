@@ -1,0 +1,6 @@
+Content\barra.xnb
+Content\bola.xnb
+Content\quadrado.xnb
+Content\perdeu.xnb
+Content\venceu.xnb
+Content\menu.xnb

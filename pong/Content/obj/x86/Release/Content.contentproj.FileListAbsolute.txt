@@ -1,0 +1,1 @@
+C:\Users\N-36\Documents\Visual Studio 2008\Projects\pong\pong\Content\obj\x86\Release\ResolveAssemblyReference.cache
