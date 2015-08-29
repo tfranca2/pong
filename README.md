@@ -1,6 +1,6 @@
 # pong
 
-Projeto desnvolvido em Microsoft Xna Framework
+Projeto desenvolvido em Microsoft Xna Framework
 
 Jogo de ping pong (Arkanoid)
 
